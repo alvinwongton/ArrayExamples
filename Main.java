@@ -30,12 +30,30 @@ class Main
          *          call this array ar1.  Print it out below.
          */
         System.out.println("*** PRINTING ar1 *");
+        int[] ar1 = new int[n];
+        
+        for (int i=0; i<n; i++)
+         ar1[i]=n-1-i;
+         
+         for (int i=0; i<n; i++)
+         System.out.println("ar1["+i+"]="+ar1[i]);
+         
         
                 
         /*
          * Task 2.  Create a new array called ar2.
          *          Copy the elements of ar1 into ar2.
          */
+        System.out.println("** ar2 **");
+        
+        //just copies the memory location so ar2 and ar1 are the same
+        int[] ar2 = ar1;
+        
+        //ar2=ar1.clone();
+        ar2=new int[ar1.length];
+        for (int i=0; i<n; i++)
+         ar2[i]=ar1[i];
+         
         
         
         /* 
