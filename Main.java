@@ -194,10 +194,10 @@ class Main
          int[] ar2odds = new int[ar2.length];
          for (int i=0; i<ar2.length; i++)
          {
-             System.out.println(ar2[i[);
+             System.out.println(ar2[i]);
              if (i%2==1)
              {ar2odds[k]=ar2[i];
-                 k++
+                 k++;
                 }
             }
             for (int i=0; i<k; i++)
@@ -207,7 +207,7 @@ class Main
          * have.  Then create an ew array called ar4.  Copy just the odd
          * numbers from ar1 into ar4.  Print ar4
          */
-        
+      
         /*
          * Task 10.  Shift the elements of ar4 right by 1
          * For example
