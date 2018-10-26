@@ -11,6 +11,7 @@ class Monster
     /*
      * Task 1. Create a default Constructor here
      */
+    
 
     
     /*
