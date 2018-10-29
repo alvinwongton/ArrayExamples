@@ -369,6 +369,23 @@ class Main
          * Use a for loop to print out the names of monster that start with
          * a vowel
          */
+        String[] monsterArray={ "Cookie",  "Grover",  "Oscar the Grouch" , "Elmo", "Rosita"}; // 
+
+        // You can get each monster by
+        String s =monsterArray[0]; 
+
+
+        // This gets the first character of each array and makes it lower case
+    char c=monsterArray[i].toLowerCase().charAt(0);
+
+    // Then use the code below to see....
+    if (c=='a' || c=='e' || c=='i' || c=='o' || c=='u')
+    System.out.println(monsterArray[]);
+
+    // You need to use a char because you get 
+
+
+
         
 
         
